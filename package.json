@@ -1,0 +1,21 @@
+{
+  "name": "packageinstaller",
+  "version": "1.0.0",
+  "description": "package installer exercise",
+  "main": "PackageInstaller.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js test/**/*.js",
+    "test": "npm run lint && mocha --recursive"
+  },
+  "dependencies": {
+    "chai": "*",
+    "eslint": "^2.2.0",
+    "mocha": "*",
+    "sinon": "*"
+  },
+  "author": "Mandar Deshpande",
+  "license": "ISC",
+  "devDependencies": {
+    "underscore": "^1.8.3"
+  }
+}
